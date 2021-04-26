@@ -16,7 +16,7 @@ const Navbar = () => {
 };
 
 const Nav = styled.nav`
-  background: lightgreen;
+  background: transparent;
   height: 80px;
   display: flex;
   justify-content: center;

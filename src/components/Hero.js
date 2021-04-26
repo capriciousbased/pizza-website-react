@@ -2,11 +2,13 @@ import React from "react";
 import styled from "styled-components";
 import ImgBg from "../images/pizza-3.jpeg";
 import Navbar from "./Navbar";
+import Sidebar from "./Sidebar";
 
 const Hero = () => {
   return (
     <HeroContainer>
       <Navbar />
+      <Sidebar />
       <HeroContent>
         <HeroItems>
           <HeroH1>Greatest Pizza Ever</HeroH1>
